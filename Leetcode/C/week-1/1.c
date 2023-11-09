@@ -3,7 +3,6 @@
 #include <stdbool.h>
 #include <string.h>
 
-//Note: The returned array must be malloced, assume caller calls free().
 int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
     *returnSize = 2;
     int* res = malloc((*returnSize) * sizeof(int));

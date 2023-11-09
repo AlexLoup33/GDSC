@@ -11,7 +11,6 @@ bool is_ponctuation(char c){
     return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z');
 }
 
-
 //Must be fixed
 bool isPalindrome(char* s){
     int len = strlen(s);
